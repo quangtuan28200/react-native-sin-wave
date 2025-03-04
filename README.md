@@ -14,16 +14,6 @@ or
 yarn add react-native-sin-wave
 ```
 
-### iOS Setup
-
-Ensure you have `AVFoundation` linked in your Xcode project:
-
-1. Open `ios/SoundGeneratorExample.xcworkspace` in Xcode.
-2. Select your project in the left sidebar.
-3. Go to **Build Phases** > **Link Binary With Libraries**.
-4. Add `AVFoundation.framework` if it's not already there.
-5. Run `cd ios && pod install` in your terminal.
-
 ## Usage
 
 ### Import the module
