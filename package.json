@@ -1,6 +1,6 @@
 {
   "name": "react-native-sin-wave",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React Native library for generating and playing sine wave sounds.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
