@@ -2,9 +2,8 @@
 
 @interface RCT_EXTERN_MODULE(SinWave, NSObject)
 
-RCT_EXTERN_METHOD(multiply:(float)a withB:(float)b
-                 withResolver:(RCTPromiseResolveBlock)resolve
-                 withRejecter:(RCTPromiseRejectBlock)reject)
+RCT_EXTERN_METHOD(playSound:(double)frequency)
+RCT_EXTERN_METHOD(stopSound)
 
 + (BOOL)requiresMainQueueSetup
 {

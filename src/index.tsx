@@ -17,6 +17,10 @@ const SinWave = NativeModules.SinWave
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return SinWave.multiply(a, b);
+export function playSound(frequency: number) {
+  return SinWave.playSound(frequency);
+}
+
+export function stopSound() {
+  return SinWave.stopSound();
 }
